@@ -1,0 +1,16 @@
+:host {
+  border: 2px solid gray;
+}
+
+:host ::ng-deep input {
+  border: none;
+  outline: none;
+}
+
+:host(.focus) {
+  border: 1px solid blue;
+}
+
+.font-icon {
+  font-size: 12px;
+}
